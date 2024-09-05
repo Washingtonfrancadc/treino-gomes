@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+    color: rgb(209, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 243, 243);
+}
+
+body {
+    color: rgb(209, 0, 0);
+    background-image: url("../treino-gomes/imagens/Background.jpeg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    max-width: 450px;
+    width: 98vw;
+}
+
+table { 
+    border-collapse: collapse;
+
+}
+th, td {
+    border: 1px solid rgb(196, 196, 196);
+    padding-inline: 2px;
+    font-size: 0.9em;
+    
+}
+
+.ser, .rep, .rest {
+    width: auto;
+
+    
+}
+.ex {
+    width: 98vw;
+}
+button {
+    max-width: 450px;
+    margin: 5px auto auto auto;
+    font-weight: bold;
+    width: 98vw;
+    color: rgb(209, 0, 0);
+    background-color: rgba(0, 0, 0, 0.61);
+    border: 1px solid rgb(209, 0, 0);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+       
+}
+button:hover {
+    color: rgb(255, 255, 255)ed;
+    background-color: rgba(54, 54, 54, 0.616);
+    border: 1px solid rgb(196, 196, 196);
+    
+}
+a {
+    color: rgb(209, 0, 0);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(255, 122, 122);
+    text-decoration: double;
+}
+p {
+    padding-top: 10px;
+}
+
+#myIframe {
+    overflow: hidden;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+#div.show {
+    height: 360px;
+    transition: height .5s ease;
+    overflow: hidden;
+}
+
+/* Ajustes para a div do iframe */
+#div {
+    height: 0px;
+    border-radius: 10px;
+    margin: auto auto auto auto;
+    max-width: 360px;
+    /*height: 360px;*/
+    transition: height .5s ease;
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o container */
+}
+
+/* Estilo das tabelas */
+#treinoa,
+#treinob,
+#treinoc,
+#treinod,
+#treinoe {
+    width: auto;
+    max-height: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+    transition: max-height .5s ease;
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse o container */
+}
+
+#treinoa.show,
+#treinob.show,
+#treinoc.show,
+#treinod.show,
+#treinoe.show {
+    max-height: 22em;
+}
+
+p {
+    color: white;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+#par {
+    border-radius: 5px;
+    width: max-content;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 3px;
+    background-color: rgba(255, 0, 0, 0.644);
+}
