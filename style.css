@@ -27,7 +27,7 @@ table {
 
 }
 th, td {
-    border: 1px solid rgb(196, 196, 196);
+    border: 1px solid rgb(0, 0, 0);
     padding-inline: 2px;
     font-size: 0.9em;
     
@@ -55,9 +55,8 @@ button {
        
 }
 button:hover {
-    color: rgb(255, 255, 255)ed;
+    color: rgb(54, 54, 54)ed;
     background-color: rgba(54, 54, 54, 0.616);
-    border: 1px solid rgb(196, 196, 196);
     
 }
 a {
@@ -101,7 +100,9 @@ p {
 #treinob,
 #treinoc,
 #treinod,
-#treinoe {
+#treinoe,
+#treinof,
+#treinog {
     width: auto;
     max-height: 0;
     background-color: rgba(0, 0, 0, 0.541);
@@ -113,21 +114,12 @@ p {
 #treinob.show,
 #treinoc.show,
 #treinod.show,
-#treinoe.show {
+#treinoe.show,
+#treinof.show,
+#treinog.show {
     max-height: 22em;
 }
 
 p {
-    color: white;
-    font-size: 10px;
-    margin: 0;
-    padding: 0;
-}
-#par {
-    border-radius: 5px;
-    width: max-content;
-    margin-top: 7px;
-    margin-bottom: 7px;
-    padding: 3px;
-    background-color: rgba(255, 0, 0, 0.644);
+    font-size: 1.3em;
 }
