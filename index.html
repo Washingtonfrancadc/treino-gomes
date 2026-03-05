@@ -77,13 +77,7 @@
                 <td class="serie">3</td>
                 <td class="reps">10~15</td>
                 <td class="rest">60~90"</td>
-            </tr>
-            <tr>
-                <td><a href="../treino-senna/imagens/infra.gif" class="link">Abdominal Infra</a> + <a href="https://fitnessprogramer.com/wp-content/uploads/2021/02/Kneeling-Cable-Crunch.gif" class="link">Abdominal no Cross</a> + <a href="https://fitnessprogramer.com/wp-content/uploads/2021/02/plank.gif" class="link">Prancha Abdominal</a></td>
-                <td class="serie">3</td>
-                <td class="reps">10~15</td>
-                <td class="rest">40~60"</td>
-            </tr>                        
+            </tr>               
         </table>
     </div>
 
@@ -145,12 +139,6 @@
                 <td class="reps">8/8/12/15</td>
                 <td class="rest">90"</td>
             </tr>
-            <tr>
-                <td><a href="../treino-senna/imagens/infra.gif" class="link">Abdominal Infra</a> + <a href="https://fitnessprogramer.com/wp-content/uploads/2021/02/Kneeling-Cable-Crunch.gif" class="link">Abdominal no Cross</a> + <a href="https://fitnessprogramer.com/wp-content/uploads/2021/02/plank.gif" class="link">Prancha Abdominal</a></td>
-                <td class="serie">3</td>
-                <td class="reps">10~15</td>
-                <td class="rest">40~60"</td>
-            </tr>   
         </table>
     </div>
 
@@ -205,12 +193,6 @@
                 <td class="reps">12~15</td>
                 <td class="rest">45"</td>
             </tr>
-            <tr>
-                <td><a href="../treino-senna/imagens/infra.gif" class="link">Abdominal Infra</a> + <a href="https://fitnessprogramer.com/wp-content/uploads/2021/02/Kneeling-Cable-Crunch.gif" class="link">Abdominal no Cross</a> + <a href="https://fitnessprogramer.com/wp-content/uploads/2021/02/plank.gif" class="link">Prancha Abdominal</a></td>
-                <td class="serie">3</td>
-                <td class="reps">10~15</td>
-                <td class="rest">40~60"</td>
-            </tr>     
         </table>
     </div>
 
@@ -344,6 +326,35 @@
         </table>
     </div>
 
+<button id="btntreinof">Cardio e bd</button>
+    <div id="treinof">
+        <table id="treinof">
+            <tr>
+                <th class="ex">Exercício</th>
+                <th class="ser">Séries</th>
+                <th class="rep">Reps.</th>
+                <th class="rest">Desc.</th>
+            </tr>
+            <tr>
+                <td><a href="https://fitnessprogramer.com/wp-content/uploads/2021/02/plank.gif" class="link">Prancha Abdominal</a> + <a href="https://fitnessprogramer.com/wp-content/uploads/2022/02/4-Point-Tummy-Vacuum-Exercise.gif" class="link">Vácuo Abdominal</a> (todo dia)</td>
+                <td class="serie">3</td>
+                <td class="reps">MÁX</td>
+                <td class="rest">40~60"</td>
+            </tr>     
+            <tr>
+                <td><a href="../treino-senna/imagens/infra.gif" class="link">Abdominal Infra</a> + <a href="https://fitnessprogramer.com/wp-content/uploads/2022/07/Full-Crunch-Machine.gif" class="link">Abdominal na Máquina</a> (Dia sim Dia não)</td>
+                <td class="serie">5</td>
+                <td class="reps">10~15</td>
+                <td class="rest">40~60"</td>
+            </tr>     
+            <tr>
+                <td><a href="https://fitnessprogramer.com/wp-content/uploads/2021/06/Treadmill-.gif" class="link">Bicicleta, Esteira ou Transport</a></td>
+                <td class="serie">-</td>
+                <td class="reps">20 min/Dia</td>
+                <td class="rest">-</td>
+            </tr>
+        </table>
+    </div>
 
 
 
@@ -359,7 +370,7 @@
         const button3 = document.querySelector('#btntreinoc');
         const button4 = document.querySelector('#btntreinod');
         const button5 = document.querySelector('#btntreinoe');
-        //const button6 = document.querySelector('#btntreinof');
+        const button6 = document.querySelector('#btntreinof');
         //const button7 = document.querySelector('#btntreinog');
         const iframeContainer = document.querySelector('#div'); // Atualizado para corresponder ao ID correto
         const iframe = document.getElementById('myIframe');
@@ -386,7 +397,7 @@
             document.querySelector('#treinoc').classList.remove('show');
             document.querySelector('#treinod').classList.remove('show');
             document.querySelector('#treinoe').classList.remove('show');
-            //document.querySelector('#treinof').classList.remove('show');
+            document.querySelector('#treinof').classList.remove('show');
             //document.querySelector('#treinog').classList.remove('show');
                 hideIframe();
             
@@ -398,7 +409,7 @@
             document.querySelector('#treinoc').classList.remove('show');
             document.querySelector('#treinod').classList.remove('show');
             document.querySelector('#treinoe').classList.remove('show');
-            //document.querySelector('#treinof').classList.remove('show');
+            document.querySelector('#treinof').classList.remove('show');
             //document.querySelector('#treinog').classList.remove('show');
             
                 hideIframe();
@@ -423,7 +434,7 @@
             document.querySelector('#treinoc').classList.remove('show');
             document.querySelector('#treinod').classList.toggle('show');
             document.querySelector('#treinoe').classList.remove('show');
-           // document.querySelector('#treinof').classList.remove('show');
+            document.querySelector('#treinof').classList.remove('show');
           //  document.querySelector('#treinog').classList.remove('show');
             
                 hideIframe();
@@ -435,24 +446,24 @@
             document.querySelector('#treinoc').classList.remove('show');
             document.querySelector('#treinod').classList.remove('show');
             document.querySelector('#treinoe').classList.toggle('show');
-         //   document.querySelector('#treinof').classList.remove('show');
+            document.querySelector('#treinof').classList.remove('show');
           //  document.querySelector('#treinog').classList.remove('show');
             
                 hideIframe();
             
         });
-        //button6.addEventListener('click', function() {
-        //document.querySelector('#treinoa').classList.remove('show');
-        //    document.querySelector('#treinob').classList.remove('show');
-        //    document.querySelector('#treinoc').classList.remove('show');
-        //    document.querySelector('#treinod').classList.remove('show');
-        //    document.querySelector('#treinoe').classList.remove('show');
-        //    document.querySelector('#treinof').classList.toggle('show');
-        //    document.querySelector('#treinog').classList.remove('show');
+        button6.addEventListener('click', function() {
+        document.querySelector('#treinoa').classList.remove('show');
+            document.querySelector('#treinob').classList.remove('show');
+            document.querySelector('#treinoc').classList.remove('show');
+            document.querySelector('#treinod').classList.remove('show');
+            document.querySelector('#treinoe').classList.remove('show');
+            document.querySelector('#treinof').classList.toggle('show');
+            document.querySelector('#treinog').classList.remove('show');
         //    
-        //        hideIframe();
+                hideIframe();
         //    
-        //});
+        });
         //button7.addEventListener('click', function() {
         //    document.querySelector('#treinoa').classList.remove('show');
         //    document.querySelector('#treinob').classList.remove('show');
