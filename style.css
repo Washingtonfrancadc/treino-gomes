@@ -27,7 +27,7 @@ table {
 
 }
 th, td {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
     padding-inline: 2px;
     font-size: 0.9em;
     
@@ -122,4 +122,5 @@ p {
 
 p {
     font-size: 1.3em;
+
 }
